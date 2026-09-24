@@ -1,16 +1,70 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi primer proyecto</title>
+    <title>David Osorio | Portafolio</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Hola, GitHub</h1>
-<h2>Este es mi primer repositorio Web.</h2>
-<p>Hola soy David. Este es mi primer proyecto creado con HTML, CSS, Git y GitHub. </p>
-<a href="sobre-mi.html" class="boton">Conocer más</a>
+    <header class="site-header">
+        <nav class="navbar" aria-label="Navegación principal">
+            <a class="logo" href="#inicio">David Osorio</a>
+            <ul class="nav-links">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#sobre-mi">Sobre mí</a></li>
+                <li><a href="#proyectos">Mis proyectos</a></li>
+                <li><a href="#habilidades">Habilidades</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="inicio" class="hero-section">
+            <div class="hero-content">
+                <p class="eyebrow">Portafolio personal</p>
+                <h1>Hola, soy David</h1>
+                <p>Estoy aprendiendo a crear experiencias web modernas con HTML, CSS, JavaScript, Git y GitHub.</p>
+                <a href="#proyectos" class="btn-primary">Ver mis proyectos</a>
+            </div>
+        </section>
+
+        <section id="sobre-mi" class="about-section">
+            <p class="eyebrow">Conóceme</p>
+            <h2>Sobre mí</h2>
+            <p>Este es mi primer proyecto web. Aquí compartiré mi proceso de aprendizaje y los proyectos que vaya construyendo.</p>
+            <a href="sobre-mi.html" class="text-link">Leer más sobre mí</a>
+        </section>
+
+        <section id="proyectos" class="content-section">
+            <p class="eyebrow">Lo que estoy creando</p>
+            <h2>Mis proyectos</h2>
+            <p>Próximamente encontrarás aquí una selección de mis trabajos.</p>
+        </section>
+
+        <section id="habilidades" class="content-section content-section-alt">
+            <p class="eyebrow">Lo que estoy aprendiendo</p>
+            <h2>Habilidades</h2>
+            <ul class="skills-list">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>Git y GitHub</li>
+            </ul>
+        </section>
+
+        <section id="contacto" class="content-section">
+            <p class="eyebrow">Hablemos</p>
+            <h2>Contacto</h2>
+            <p>Puedes escribirme para conocer más sobre mi trabajo y aprendizaje.</p>
+            <a href="mailto:tu-correo@ejemplo.com" class="btn-primary">Enviarme un correo</a>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 David Osorio. Hecho con HTML, CSS y JavaScript.</p>
+    </footer>
 
 
 </body>
